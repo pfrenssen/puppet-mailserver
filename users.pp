@@ -13,3 +13,8 @@ ssh_authorized_key {'pieter':
   name   => 'pieter@pieter-desktop',
   user   => 'pieter',
 }
+
+group { 'pieter':
+  ensure => 'present',
+  gid    => '1000',
+}
