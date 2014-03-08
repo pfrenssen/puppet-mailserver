@@ -18,3 +18,8 @@ group { 'pieter':
   ensure => 'present',
   gid    => '1000',
 }
+
+group { 'wheel':
+  ensure => 'present',
+  gid    => '1001',
+}
