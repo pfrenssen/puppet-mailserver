@@ -17,3 +17,4 @@ gem install librarian-puppet
 # Clean up.
 rm ~/puppetlabs-release-wheezy.deb
 
+echo "Installation done. Now do 'puppet apply site.pp'.
