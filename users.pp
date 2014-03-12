@@ -1,7 +1,7 @@
 user { 'pieter':
   ensure           => 'present',
   gid              => 'pieter',
-  groups           => ['wheel'],
+  groups           => ['sudo'],
   home             => '/home/pieter',
   shell            => '/bin/bash',
 }
@@ -19,7 +19,7 @@ group { 'pieter':
   gid    => '1000',
 }
 
-group { 'wheel':
+group { 'sudo':
   ensure => 'present',
   gid    => '1001',
 }
