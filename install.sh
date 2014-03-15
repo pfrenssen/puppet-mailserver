@@ -14,6 +14,9 @@ apt-get install puppet ruby-dev -y
 # Install librarian-puppet.
 gem install librarian-puppet
 
+# Install puppet modules.
+librarian-puppet update
+
 # Clean up.
 rm puppetlabs-release-wheezy.deb
 
