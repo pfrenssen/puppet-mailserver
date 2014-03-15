@@ -20,4 +20,5 @@ librarian-puppet update
 # Clean up.
 rm puppetlabs-release-wheezy.deb
 
-echo "Installation done. Now do 'puppet apply site.pp'."
+echo "Installation done."
+echo "Now do 'puppet apply site.pp --modulepath=./modules'."
