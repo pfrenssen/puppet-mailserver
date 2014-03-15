@@ -4,8 +4,8 @@
 #
 
 # Add the repository.
-wget https://apt.puppetlabs.com/puppetlabs-release-wheezy.deb -O ~/puppetlabs-release-wheezy.deb
-dpkg -i ~/puppetlabs-release-wheezy.deb
+wget https://apt.puppetlabs.com/puppetlabs-release-wheezy.deb -O puppetlabs-release-wheezy.deb
+dpkg -i Puppetlabs-release-wheezy.deb
 
 # Install packages.
 apt-get update
@@ -15,6 +15,6 @@ apt-get install puppet ruby-dev -y
 gem install librarian-puppet
 
 # Clean up.
-rm ~/puppetlabs-release-wheezy.deb
+rm puppetlabs-release-wheezy.deb
 
-echo "Installation done. Now do 'puppet apply site.pp'.
+echo "Installation done. Now do 'puppet apply site.pp'."
