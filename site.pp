@@ -1,4 +1,5 @@
-import 'vim.pp'
+import 'ufw.pp'
 import 'users.pp'
+import 'vim.pp'
 
 class { 'sudo': }

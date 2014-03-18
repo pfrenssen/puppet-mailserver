@@ -12,4 +12,5 @@ forge "http://forge.puppetlabs.com"
 #   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
 #   :ref => 'feature/master/dans_refactor'
 
+mod 'attachmentgenie/ufw'
 mod 'saz/sudo'

@@ -1,10 +1,13 @@
 FORGE
   remote: http://forge.puppetlabs.com
   specs:
+    attachmentgenie/ufw (1.4.7)
+      puppetlabs/stdlib (>= 2.2.1)
     puppetlabs/stdlib (4.1.0)
     saz/sudo (3.0.3)
       puppetlabs/stdlib (>= 2.3.0)
 
 DEPENDENCIES
+  attachmentgenie/ufw (>= 0)
   saz/sudo (>= 0)
 
